@@ -29,7 +29,7 @@ with open("C:\\Users\\HZ3903\\UTAUS201807DATA2\\homework-instructions\\03-Python
     print("-----------------------------")
 
     for key,value in contenders_votes.items():
-        print (str(key) +  "\t" + ": " + str('{:,.3f}'.format(value * 100/total_votes) ) + " (" + str(value) + " )" )  
+        print (str(key) + "\t" + ": " + str('{:,.3f}'.format(value * 100/total_votes) ) + " (" + str(value) + " )" )
     print("-----------------------------")
     for key,value in contenders_votes.items(): 
         print ("Winner: " + str(key)) 
